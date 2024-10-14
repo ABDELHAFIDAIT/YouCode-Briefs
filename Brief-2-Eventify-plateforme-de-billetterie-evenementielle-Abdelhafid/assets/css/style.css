@@ -3,3 +3,75 @@
 *{
     font-family: Poppins;
 }
+
+body{
+    background-color: grey;
+}
+
+
+/* Navbar----------------------------------------------------------------------------*/
+.nav-container{
+    display: flex;
+    width: auto;
+    margin: 10px 150px;
+    padding: 10px;
+}
+
+.logo-navbar{
+    width: 20%;
+}
+
+.navbar{
+    display: flex;
+    width: 80%;
+    justify-content: right;
+    align-items: center;
+}
+
+#logo{
+    width: 150px;
+}
+
+.nav-link{
+    margin-right: 60px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link a:hover{
+    color : blue ;
+}
+
+.nav-link.active a{
+    color: blue;
+}
+
+.nav-login button{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 6px 30px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-login button:hover{
+    background-color: blue;
+    transition: all 400ms;
+    border: none;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
