@@ -171,7 +171,8 @@ body , html{
 }
 
 .search-box input ,
-.search-box input:focus{
+.search-box input:focus,
+select{
     width: 80%;
     margin-top: 10px;
     background-color: transparent;
