@@ -186,3 +186,125 @@ body , html{
     font-weight: 400;
     font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Section --------------------------------------------------------------------------*/
+
+.main-footer{
+    background-color: #0A075F;
+}
+
+.footer-container{
+    display: flex;
+    margin: 0 75px;
+    padding: 10px;
+}
+
+.footer-about{
+    padding-top: 20px;
+}
+
+.footer-about,
+.footer-news-letter{
+    width:35%;
+    margin: 10px 10px 10px 0; 
+}
+
+.footer-events,
+.footer-links{
+    width:15%;
+    margin: 10px 10px 10px 0;
+    display: block;
+}
+
+#footer-logo{
+    width: 30%;
+}
+
+.footer-about p{
+    font-size: 12px;
+    font-weight: 200;
+    width: 80%;
+}
+
+.social-media img{
+    width: 30px;
+}
+
+.footer-container a{
+    text-decoration: none;
+    font-size: small;
+}
+
+.footer-events p,
+.footer-links p{
+    margin-top: -5px;
+}
+
+.footer-container h3{
+    font-weight: 500;
+}
+
+.footer-news-letter p{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.newsletter{
+    position: relative;
+}
+
+.newsletter input{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    width: 85%;
+    position: absolute;
+    color: black;
+}
+
+.newsletter input:focus{
+    border: none;
+    outline: none;
+}
+
+.newsletter button{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding: 15px 30px;
+    align-content: center;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: deeppink;
+    cursor: pointer;
+}
+
+.newsletter button:hover{
+    background-color: #141572;
+    transition: all 400ms;
+    border: none;
+}
+
+.copy-right{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0 120px
+}
