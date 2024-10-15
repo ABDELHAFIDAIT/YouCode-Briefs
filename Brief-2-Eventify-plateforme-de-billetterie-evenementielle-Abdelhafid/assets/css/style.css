@@ -4,8 +4,8 @@
     font-family: Poppins;
 }
 
-body{
-    background-color: grey;
+body , html{
+    margin: 0;
 }
 
 
@@ -13,7 +13,7 @@ body{
 .nav-container{
     display: flex;
     width: auto;
-    margin: 10px 150px;
+    margin: 0 150px;
     padding: 10px;
 }
 
@@ -42,11 +42,11 @@ body{
 }
 
 .nav-link a:hover{
-    color : blue ;
+    color : rgb(255, 157, 157) ;
 }
 
 .nav-link.active a{
-    color: blue;
+    color: rgb(255, 157, 157);
 }
 
 .nav-login button{
@@ -60,7 +60,7 @@ body{
 }
 
 .nav-login button:hover{
-    background-color: blue;
+    background-color: rgb(255, 157, 157);
     transition: all 400ms;
     border: none;
     transform: scale(1.1);
@@ -70,8 +70,67 @@ body{
 
 
 
+/* Header-----------------------------------------------------------------------------*/
+.first-fold{
+    background-image: linear-gradient(to bottom right , purple, rgba(41, 4, 248, 0.7)) , url("../imgs/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+    margin: 0px;
+}
 
+.header-container{
+    display: flex;
+    width: auto;
+    margin: 10px 150px;
+    padding: 10px;
+}
 
+.header-img{
+    width: 50%;
+}
 
+.header-img img{
+    width: 100%;
+}
 
+.header-content{
+    display: block;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 60px;
+    align-content: top;
+    color: white;
+}
 
+.header-content p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+.header-btn button{
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    border: none ;
+    border-radius: 50px;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+
+.header-btn button:first-child{
+    background-color: deeppink;
+}
+
+.header-btn button:last-child{
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.header-btn button:hover{
+    background-color: rgb(255, 157, 157);
+    transition: all 400ms;
+    border: none;
+    transform: scale(1.1);
+}
