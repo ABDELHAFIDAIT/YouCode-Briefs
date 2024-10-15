@@ -2,14 +2,27 @@
 
 *{
     font-family: Poppins;
+    color: white;
 }
 
 body , html{
     margin: 0;
+    height: 1500px;
+}
+
+.first-fold{
+    background-image: 
+    linear-gradient(to bottom right , rgba(237, 70, 144, 0.8), rgba(85, 34, 204, 1)) 
+    , url("../imgs/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+    /* margin: 0px; */
 }
 
 
-/* Navbar----------------------------------------------------------------------------*/
+
+/* Navbar ----------------------------------------------------------------------------*/
 .nav-container{
     display: flex;
     width: auto;
@@ -42,11 +55,11 @@ body , html{
 }
 
 .nav-link a:hover{
-    color : rgb(255, 157, 157) ;
+    color : #141572 ;
 }
 
 .nav-link.active a{
-    color: rgb(255, 157, 157);
+    color: #141572;
 }
 
 .nav-login button{
@@ -60,7 +73,7 @@ body , html{
 }
 
 .nav-login button:hover{
-    background-color: rgb(255, 157, 157);
+    background-color: #141572;
     transition: all 400ms;
     border: none;
     transform: scale(1.1);
@@ -70,15 +83,7 @@ body , html{
 
 
 
-/* Header-----------------------------------------------------------------------------*/
-.first-fold{
-    background-image: linear-gradient(to bottom right , purple, rgba(41, 4, 248, 0.7)) , url("../imgs/wallpaper.jpg");
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 40px;
-    margin: 0px;
-}
-
+/* Header Section -----------------------------------------------------------------------------*/
 .header-container{
     display: flex;
     width: auto;
@@ -129,8 +134,55 @@ body , html{
 }
 
 .header-btn button:hover{
-    background-color: rgb(255, 157, 157);
+    background-color: #141572;
     transition: all 400ms;
     border: none;
     transform: scale(1.1);
+}
+
+
+
+/* Search Box --------------------------------------------------------------------------*/
+.search-box{
+    background-color: transparent;
+    margin-top: -60px;
+}
+.search-box-container{
+    background-color: #242565;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px 0 20px 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.event-search , .place-search , .date-search{
+    width: 33.33%;
+    padding: 10px 0 10px 10px;
+}
+
+.search-box label{
+    color: white;
+    display: block;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.search-box input ,
+.search-box input:focus{
+    width: 80%;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white ;
+    outline:none;
+}
+
+.search-box input::placeholder,
+.search-box input:focus{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
 }
