@@ -472,3 +472,53 @@ body , html{
 .brands-container img{
     padding: 20px 10px;
 }
+
+
+
+
+
+
+
+/* Blog Section ----------------------------------------------------------------------------------*/
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: auto auto;
+    margin: 5px 150px 20px 150px;
+    gap: 20px;
+}
+
+.blog-title{
+    grid-column: span 3;
+    text-align: center;
+}
+
+.blog-title h1{
+    color: #242565;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.blog-title p{
+    color: #6A6A6A;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.blog-card img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.blog-card h4{
+    color: #242565;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.blog-card p{
+    color: #A5A5A5;
+    font-size: 14px;
+    font-weight: 300;
+}
