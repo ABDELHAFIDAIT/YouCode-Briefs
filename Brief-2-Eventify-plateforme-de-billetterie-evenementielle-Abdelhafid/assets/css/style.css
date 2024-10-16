@@ -432,7 +432,7 @@ body , html{
 
 
 
-/* Brand Section ----------------------------------------------------------------------------*/
+/* Join Brand Section ----------------------------------------------------------------------------*/
 .join-brand-container{
     background-color: #EEE1FF;
     align-self: center;
@@ -451,4 +451,24 @@ body , html{
     font-weight: 300;
     color: #6A6A6A;
     margin: 0 350px 20px 350px;
+}
+
+
+
+
+
+
+
+
+/* Brands Logo Section ----------------------------------------------------------------------------*/
+.brands-container{
+    display: flex;
+    margin: 30px 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brands-container img{
+    padding: 20px 10px;
 }
