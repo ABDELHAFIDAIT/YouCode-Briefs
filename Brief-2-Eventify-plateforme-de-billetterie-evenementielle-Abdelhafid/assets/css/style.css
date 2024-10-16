@@ -415,6 +415,7 @@ body , html{
     font-weight: 600;
     font-size: medium;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 .load-button button:hover{
@@ -432,3 +433,22 @@ body , html{
 
 
 /* Brand Section ----------------------------------------------------------------------------*/
+.join-brand-container{
+    background-color: #EEE1FF;
+    align-self: center;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.join-brand h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #242565;
+}
+
+.join-brand p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #6A6A6A;
+    margin: 0 350px 20px 350px;
+}
