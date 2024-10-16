@@ -326,7 +326,7 @@ body , html{
 }
 
 .events-title{
-    grid-area: 1 / 1 / 2 / 4;
+    grid-column: 1 / 4;
     font-size: 25px;
 }
 
@@ -521,4 +521,172 @@ body , html{
     color: #A5A5A5;
     font-size: 14px;
     font-weight: 300;
+}
+
+
+
+
+
+
+/*===================================*/
+/*           Speakers Page           */
+/*===================================*/
+
+
+
+/* Speakers Section ------------------------------------------------------------------*/
+.speakers-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(5 , auto);
+    gap: 30px 20px;
+    margin: 40px 150px;
+}
+
+.speakers-title{
+    font-size: 25px;
+}
+
+.speakers-title h1{
+    color: #242565;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.speakers-search{
+    grid-column: span 2;
+    position: relative;
+}
+
+.speakers-search input{
+    position: absolute;
+    right: 0;
+    top: 24px;
+    align-self: center;
+    width: 50%;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #F2F4FF;
+    color: #1D275F;
+}
+
+.speakers-search input:focus{
+    border: none;
+    outline: none;
+}
+
+.speakers-search input::placeholder{
+    color: #1D275F;
+}
+
+.speakers-search img{
+    position: absolute;
+    width: 20px;
+    right: 20px;
+    top: 32px;
+    cursor: pointer;
+}
+
+.speakers-number{
+    grid-column: span 3;
+    display: flex;
+    align-items: center;
+    margin-top: -2%;
+}
+
+.speakers-number h1{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 500;
+    color: #242565;
+}
+
+.speakers-number p{
+    color: #007AB9;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.speakers-card{
+    background-color: white;
+    box-shadow: 5px 10px 20px rgba(90, 89, 89, 0.463);
+    cursor: pointer;
+    text-align: center;
+}
+
+.speakers-card:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: all 500ms;
+}
+
+.speakers-card img{
+    width: 100%;
+}
+
+.speakers-details{
+    text-align: center;
+}
+
+.speakers-details h2{
+    color: #1D275F;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.speakers-details p{
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.speakers-btn{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.speakers-btn button{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #1A1517;
+    cursor: pointer;
+}
+
+.speakers-btn button:hover{
+    background-color: #141572;
+    transform: scale(1.1);
+    transition: 500ms ease;
+}
+
+
+.see-button{
+    grid-column: span 3;
+    align-self: center;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+.see-button button{
+    border: 2px solid #3D37F1;
+    border-radius: 30px;
+    color: #3D37F1;
+    background-color: transparent;
+    padding: 15px 40px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.see-button button:hover{
+    color: white;
+    background-color: #3D37F1;
+    transform: scale(1.1);
+    transition: all 400ms;
 }
