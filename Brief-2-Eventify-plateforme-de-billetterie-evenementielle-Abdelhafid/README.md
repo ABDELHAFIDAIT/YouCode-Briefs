@@ -58,7 +58,7 @@ Création des maquettes simples pour les pages Speakers, About et Login, en resp
 
 2. **Figma** : Consultation du design des Maquettes dans [Figma](https://www.figma.com/design/JJqJySM1OHUVL9c8MOSrSB/Brief-2---Eventick?node-id=0-1&t=rPCtkwrSkJ7FqRMT-1)
 
-3. **Site Hébrgé** : Consultation du Site [Eventick](https://abdelhafidait.github.io/YouCode-Briefs/Brief-2-Eventify-plateforme-de-billetterie-evenementielle-Abdelhafid/pages/speaker.html). 
+3. **Site Hébrgé** : Consultation du Site [Eventick](https://abdelhafidait.github.io/YouCode-Briefs/Brief-2-Eventify-plateforme-de-billetterie-evenementielle-Abdelhafid/pages/home.html). 
 
 ---------------------------------------------------------------------------------------------------------
 
