@@ -1,5 +1,6 @@
 # Brief 2 - Eventify: Plateforme de Billetterie Événementielle
--- Développement d'une maquette HTML/CSS pour Eventify, plateforme billetterie événementielle. --
+
+## Développement d'une maquette HTML/CSS pour Eventify, plateforme billetterie événementielle.
 
 
 **Nom Complet: Abdelhafid AIT EL MOKHTAR**
@@ -19,10 +20,10 @@ Création d’un tableau Trello afin d'Organiser le travail en différentes tâc
 Création des maquettes simples pour les pages Speakers, About et Login, en respectant le thème fourni dans la Page Home, et l'Assurance de la navigation intuitive entre les pages(liens clairs dans le menu).
 
 3. **Développement** :
-- Utilisation des balises HTML sémantiques pour une meilleure lisibilité.
-- Utilisation de CSS Grid pour organiser les sections de chaque page pour faciliter la mise en page et * le positionnement des éléments.
-- Assurance que le résultat final correspond fidèlement aux maquettes créées.​
-- Création des fichiers HTML distincts pour chaque page (Speakers.html, About.html, Login.html) et les lier via un menu de navigation.
+    - Utilisation des balises HTML sémantiques pour une meilleure lisibilité.
+    - Utilisation de CSS Grid pour organiser les sections de chaque page pour faciliter la mise en page et le positionnement des éléments.
+    - Assurance que le résultat final correspond fidèlement aux maquettes créées.​
+    - Création des fichiers HTML distincts pour chaque page (Speakers.html, About.html, Login.html) et les lier via un menu de navigation.
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -56,6 +57,8 @@ Création des maquettes simples pour les pages Speakers, About et Login, en resp
 1. **Trello** : La Planification des Tâches est effectué avec [Plateforme_Trello](https://trello.com/invite/b/670cece4b902ef9c81c67004/ATTI226101dc36f7bb03642031bbdad8528403E1EF56/brief-2-eventify).
 
 2. **Figma** : Consultation du design des Maquettes dans [Figma](https://www.figma.com/design/JJqJySM1OHUVL9c8MOSrSB/Brief-2---Eventick?node-id=0-1&t=rPCtkwrSkJ7FqRMT-1)
+
+3. **Site Hébrgé** : Consultation du Site [Eventick](https://abdelhafidait.github.io/YouCode-Briefs/Brief-2-Eventify-plateforme-de-billetterie-evenementielle-Abdelhafid/pages/speaker.html). 
 
 ---------------------------------------------------------------------------------------------------------
 
